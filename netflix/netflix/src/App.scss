@@ -1,0 +1,50 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+a,h2{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #1e1919;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+> img{
+    height: 100%;
+}
+> div {
+   width: 100%;
+//    border: 1px solid red;
+   margin-left: 2vmax ; 
+   >a{
+    color: white;
+    text-decoration: none;
+    // padding: 10px;
+    margin: 1vmax;
+    font-size: 18px;
+
+   }
+}
+> svg{
+    color:aliceblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+     &:hover{
+    color:rgba(237, 237, 237, 0.247);
+}
+}
+}
